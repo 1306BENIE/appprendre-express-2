@@ -1,0 +1,20 @@
+{
+  "name": "appprendre-express-2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "BENIE SYLVESTRE",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "module": "^1.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

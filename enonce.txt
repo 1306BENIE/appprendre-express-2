@@ -1,0 +1,16 @@
+Nous allons creer un CRUD pour gerer la liste des produuits dans un magasin en ligne.
+chaque produits aura les ^proprietes suivantes
+- id(identifiant unique)
+- name(nom du produit)
+-price(prix du produit)
+-quantity(quantity du produit en stock)
+
+1- mettez en place une route permettant d'avoir tous les produits 
+2- mettez en place une route permettant d'ajouter des produits en stock
+et lever une exception lorsque les propriétés de ce produit n'existe  pas lors de la mise en stock
+3-mettez en place une route permettant de retourner un produuit en particulier
+4-mettez en place une route permettant de mettre à jour un produit en particulier en tenant compte du faite que l'utilisateur 
+est la possibilité de modifier une propriété qu'il veut
+5- mettez en place une route permettant de supprimer un produit en particulier
+6- Ajouter un middleware pour valider que le prix et la quantité sont des nombres valides
+7- ajouter un middleware de gestion d'erreur de façon global.
